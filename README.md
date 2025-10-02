@@ -39,4 +39,7 @@ First row: sine wave → original, shifted, and scaled
 
 Second row: step signal → original, shifted, and scaled
 
+![Demo signals](demo_signals.png)
+
+
 
