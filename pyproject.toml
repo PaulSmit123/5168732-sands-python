@@ -9,7 +9,7 @@ description = "Signals and Systems project: generating, modifying and plotting s
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
-  { name = "Paulo Smit", email = "p.smit@student.tudelft.nl" }
+  { name = "Paul Smit", email = "pjmsmit@tudelft.nl" }
 ]
 dependencies = [
   "numpy",
