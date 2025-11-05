@@ -39,6 +39,7 @@ To run the tests, a terminal is opened in the project folder and type:
 python -m pytest
 
 It showes that everything is working correctly, by giving the following output:
+
 ==================== test session starts ====================
 collected 3 items
 test_signals.py ...                                    [100%]
@@ -46,7 +47,7 @@ test_signals.py ...                                    [100%]
 
 This confirms that all implemented functions behave as expected.
 
-- **Example Result**
+## Example Result
 
 Executing run.py will open plots like the one below:
 
