@@ -31,6 +31,21 @@ pip install numpy matplotlib
 Then run:
 python run.py
 
+## Testing
+
+All main functions are tested automatically using **pytest**.
+
+To run the tests, a terminal is opened in the project folder and type:
+python -m pytest
+
+It showes that everything is working correctly, by giving the following output:
+==================== test session starts ====================
+collected 3 items
+test_signals.py ...                                    [100%]
+===================== 3 passed in 0.07s =====================
+
+This confirms that all implemented functions behave as expected.
+
 - **Example Result**
 
 Executing run.py will open plots like the one below:
@@ -42,4 +57,12 @@ Second row: step signal → original, shifted, and scaled
 ![Demo signals](demo_signals.png)
 
 
+## Project Configuration
 
+The project includes a pyproject.toml file that defines metadata and dependencies.
+This file ensures that the project can be installed and executed consistently across environments.
+
+## Author
+
+Paul Smit
+TU Delft – AESB2122-24: Signals and Systems with Python
