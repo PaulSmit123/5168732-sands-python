@@ -41,8 +41,11 @@ python -m pytest
 It showes that everything is working correctly, by giving the following output:
 
 ==================== test session starts ====================
+
 collected 3 items
+
 test_signals.py ...                                    [100%]
+
 ===================== 3 passed in 0.07s =====================
 
 This confirms that all implemented functions behave as expected.
